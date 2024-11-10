@@ -29,8 +29,10 @@ This project is a social network API that allows users to create, read, update, 
 3. Install dependencies:
     ```sh
     npm install
-    ```
+    
     npm run seed
+    ```
+    
 
 ## Usage
 1. Start the server:
@@ -40,20 +42,22 @@ This project is a social network API that allows users to create, read, update, 
 2. Access the API at `http://localhost:3001`
 
 ## API Endpoints
-- `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - Login a user
+- `POST /api/users` - Create a new user
 - `GET /api/users` - Get all users
 - `GET /api/users/:id` - Get a user by ID
 - `PUT /api/users/:id` - Update a user by ID
 - `DELETE /api/users/:id` - Delete a user by ID
-- `POST /api/posts` - Create a new post
-- `GET /api/posts` - Get all posts
-- `GET /api/posts/:id` - Get a post by ID
-- `PUT /api/posts/:id` - Update a post by ID
-- `DELETE /api/posts/:id` - Delete a post by ID
-- `POST /api/posts/:id/comments` - Add a comment to a post
-- `GET /api/posts/:id/comments` - Get all comments for a post
-- `DELETE /api/posts/:id/comments/:commentId` - Delete a comment by ID
+- `POST /api/users/:id/friends - Add a friend by ID
+- `DELETE /api/users/:id/friends/:friendsID - Delete a friend by ID
+- `POST /api/thoughts` - Create a new thought
+- `GET /api/thoughts` - Get all thoughts
+- `GET /api/thoughts/:id` - Get a thought by ID
+- `PUT /api/thoughts/:id` - Update a thought by ID
+- `DELETE /api/thoughts/:id` - Delete a thought by ID
+- `POST /api/thoughts/:id/reactions` - Add a reaction to a thought
+- `GET /api/thoughts/:id/reactions` - Get all reactions for a thought
+- `DELETE /api/thoughts/:id/reactions/:reactionId` - Delete a reaction by ID
+
 
 ## Contributing
 1. Fork the repository
