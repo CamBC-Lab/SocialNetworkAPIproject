@@ -29,7 +29,7 @@ This project is a social network API that allows users to create, read, update, 
 3. Install dependencies:
     ```sh
     npm install
-    
+
     npm run seed
     ```
     
@@ -47,8 +47,8 @@ This project is a social network API that allows users to create, read, update, 
 - `GET /api/users/:id` - Get a user by ID
 - `PUT /api/users/:id` - Update a user by ID
 - `DELETE /api/users/:id` - Delete a user by ID
-- `POST /api/users/:id/friends - Add a friend by ID
-- `DELETE /api/users/:id/friends/:friendsID - Delete a friend by ID
+- `POST /api/users/:id/friends` - Add a friend by ID
+- `DELETE /api/users/:id/friends/:friendsID` - Delete a friend by ID
 - `POST /api/thoughts` - Create a new thought
 - `GET /api/thoughts` - Get all thoughts
 - `GET /api/thoughts/:id` - Get a thought by ID
