@@ -55,7 +55,6 @@ This project is a social network API that allows users to create, read, update, 
 - `PUT /api/thoughts/:id` - Update a thought by ID
 - `DELETE /api/thoughts/:id` - Delete a thought by ID
 - `POST /api/thoughts/:id/reactions` - Add a reaction to a thought
-- `GET /api/thoughts/:id/reactions` - Get all reactions for a thought
 - `DELETE /api/thoughts/:id/reactions/:reactionId` - Delete a reaction by ID
 
 
